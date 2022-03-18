@@ -1,0 +1,131 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "img_L1125F00496C01S08811Rp29333",
+  "properties": {
+    "farmer_unique_id": "1080522",
+    "site_id": 8811,
+    "crop_name": "maize",
+    "sowing_date": "2021-03-23",
+    "expected_yield": 200,
+    "season": "LR2021",
+    "spatial_location": "Teso North",
+    "spatial_unit": "gadm36",
+    "datetime": "2021-07-03T16:03:03Z"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          34.216724400000004,
+          0.58702421
+        ],
+        [
+          34.216724400000004,
+          0.78020084
+        ],
+        [
+          34.43462372,
+          0.78020084
+        ],
+        [
+          34.43462372,
+          0.58702421
+        ],
+        [
+          34.216724400000004,
+          0.58702421
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Teso-North/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Teso-North/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Teso-North/img_L1125F00496C01S08811Rp29333/img_L1125F00496C01S08811Rp29333.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Teso-North/collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "image": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/images/L1125F00496C01S08811Rp29333.jpg",
+      "type": "image/jpeg",
+      "title": "3 band RGB",
+      "roles": [
+        "data"
+      ]
+    },
+    "label": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/labels/L1125F00496C01S08811Rp29333.json",
+      "type": "application/json",
+      "title": "ML labels",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/thumbs/L1125F00496C01S08811Rp29333.jpg",
+      "type": "image/jpeg",
+      "title": "thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "sentinel": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main//ancillary_data/sentinel/1080522_8811_S2_R.zip",
+      "type": "application/zip",
+      "title": "Sentinel remote sensing data",
+      "roles": [
+        "data"
+      ]
+    },
+    "ERA5": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/ancillary_data/era5/1080522_8811_ERA5.zip",
+      "type": "application/zip",
+      "title": "ERA5 climate data",
+      "roles": [
+        "data"
+      ]
+    },
+    "ARC": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main//ancillary_data/arc/1080522_8811_ARC.zip",
+      "type": "application/zip",
+      "title": "ARC precipitation estimates",
+      "roles": [
+        "data"
+      ]
+    },
+    "TAMSAT": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main//ancillary_data/tamsat/1080522_8811_TAMSAT.zip",
+      "type": "application/zip",
+      "title": "TAMSAT precipitation estimates",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "bbox": [
+    34.216724400000004,
+    0.58702421,
+    34.43462372,
+    0.78020084
+  ],
+  "stac_extensions": [],
+  "collection": "Teso-North"
+}

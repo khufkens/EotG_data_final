@@ -1,0 +1,141 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "img_L331F04050C01S07608Rp19010",
+  "properties": {
+    "farmer_unique_id": "3310663506",
+    "site_id": 7608,
+    "crop_name": "maize",
+    "sowing_date": "2021-03-05",
+    "expected_yield": 9000,
+    "season": "LR2021",
+    "spatial_location": "South Imenti",
+    "spatial_unit": "gadm36",
+    "plot_size_acres": "0.5",
+    "soil_type": "loam",
+    "cropping_system": "2",
+    "drainage_type": "well drained",
+    "sampled_area": "25",
+    "moisture_content": "17",
+    "lr2018_production": "22",
+    "lr2019_production": "23.3",
+    "lr2020_production": "22.22",
+    "lr2021_production": "11.4793283660131",
+    "datetime": "2021-05-13T16:20:31Z"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          37.30792236,
+          -0.2130127
+        ],
+        [
+          37.30792236,
+          -0.02142334
+        ],
+        [
+          37.86767578,
+          -0.02142334
+        ],
+        [
+          37.86767578,
+          -0.2130127
+        ],
+        [
+          37.30792236,
+          -0.2130127
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/South-Imenti/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/South-Imenti/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/South-Imenti/img_L331F04050C01S07608Rp19010/img_L331F04050C01S07608Rp19010.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/South-Imenti/collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "image": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/images/L331F04050C01S07608Rp19010.jpg",
+      "type": "image/jpeg",
+      "title": "3 band RGB",
+      "roles": [
+        "data"
+      ]
+    },
+    "label": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/labels/L331F04050C01S07608Rp19010.json",
+      "type": "application/json",
+      "title": "ML labels",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/thumbs/L331F04050C01S07608Rp19010.jpg",
+      "type": "image/jpeg",
+      "title": "thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "sentinel": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main//ancillary_data/sentinel/3310663506_7608_S2_R.zip",
+      "type": "application/zip",
+      "title": "Sentinel remote sensing data",
+      "roles": [
+        "data"
+      ]
+    },
+    "ERA5": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/ancillary_data/era5/3310663506_7608_ERA5.zip",
+      "type": "application/zip",
+      "title": "ERA5 climate data",
+      "roles": [
+        "data"
+      ]
+    },
+    "ARC": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main//ancillary_data/arc/3310663506_7608_ARC.zip",
+      "type": "application/zip",
+      "title": "ARC precipitation estimates",
+      "roles": [
+        "data"
+      ]
+    },
+    "TAMSAT": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main//ancillary_data/tamsat/3310663506_7608_TAMSAT.zip",
+      "type": "application/zip",
+      "title": "TAMSAT precipitation estimates",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "bbox": [
+    37.30792236,
+    -0.2130127,
+    37.86767578,
+    -0.02142334
+  ],
+  "stac_extensions": [],
+  "collection": "South-Imenti"
+}

@@ -1,0 +1,141 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "img_L1133F01305C01S07832Rp28540",
+  "properties": {
+    "farmer_unique_id": "2146968",
+    "site_id": 7832,
+    "crop_name": "maize",
+    "sowing_date": "2021-04-07",
+    "expected_yield": 600,
+    "season": "LR2021",
+    "spatial_location": "Matayos",
+    "spatial_unit": "gadm36",
+    "plot_size_acres": "0.5",
+    "soil_type": "loam",
+    "cropping_system": "1",
+    "drainage_type": "poor",
+    "sampled_area": "25",
+    "moisture_content": "36",
+    "lr2018_production": "4",
+    "lr2019_production": "4",
+    "lr2020_production": "5",
+    "lr2021_production": "0.774399135802469",
+    "datetime": "2021-06-29T14:25:27Z"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          34.08823013,
+          0.30508387
+        ],
+        [
+          34.08823013,
+          0.48242107
+        ],
+        [
+          34.26182175,
+          0.48242107
+        ],
+        [
+          34.26182175,
+          0.30508387
+        ],
+        [
+          34.08823013,
+          0.30508387
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Matayos/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Matayos/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Matayos/img_L1133F01305C01S07832Rp28540/img_L1133F01305C01S07832Rp28540.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Matayos/collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "image": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/images/L1133F01305C01S07832Rp28540.jpg",
+      "type": "image/jpeg",
+      "title": "3 band RGB",
+      "roles": [
+        "data"
+      ]
+    },
+    "label": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/labels/L1133F01305C01S07832Rp28540.json",
+      "type": "application/json",
+      "title": "ML labels",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/thumbs/L1133F01305C01S07832Rp28540.jpg",
+      "type": "image/jpeg",
+      "title": "thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "sentinel": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main//ancillary_data/sentinel/2146968_7832_S2_R.zip",
+      "type": "application/zip",
+      "title": "Sentinel remote sensing data",
+      "roles": [
+        "data"
+      ]
+    },
+    "ERA5": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/ancillary_data/era5/2146968_7832_ERA5.zip",
+      "type": "application/zip",
+      "title": "ERA5 climate data",
+      "roles": [
+        "data"
+      ]
+    },
+    "ARC": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main//ancillary_data/arc/2146968_7832_ARC.zip",
+      "type": "application/zip",
+      "title": "ARC precipitation estimates",
+      "roles": [
+        "data"
+      ]
+    },
+    "TAMSAT": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main//ancillary_data/tamsat/2146968_7832_TAMSAT.zip",
+      "type": "application/zip",
+      "title": "TAMSAT precipitation estimates",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "bbox": [
+    34.08823013,
+    0.30508387,
+    34.26182175,
+    0.48242107
+  ],
+  "stac_extensions": [],
+  "collection": "Matayos"
+}

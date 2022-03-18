@@ -1,0 +1,131 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "img_L428F04472C01S10324Rp16958",
+  "properties": {
+    "farmer_unique_id": "424480573",
+    "site_id": 10324,
+    "crop_name": "maize",
+    "sowing_date": "2021-04-07",
+    "expected_yield": 50,
+    "season": "LR2021",
+    "spatial_location": "Makueni",
+    "spatial_unit": "gadm36",
+    "datetime": "2021-05-02T18:24:28Z"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          37.39209747,
+          -2.14457297
+        ],
+        [
+          37.39209747,
+          -1.7475759999999998
+        ],
+        [
+          37.96354675,
+          -1.7475759999999998
+        ],
+        [
+          37.96354675,
+          -2.14457297
+        ],
+        [
+          37.39209747,
+          -2.14457297
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Makueni/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Makueni/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Makueni/img_L428F04472C01S10324Rp16958/img_L428F04472C01S10324Rp16958.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Makueni/collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "image": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/images/L428F04472C01S10324Rp16958.jpg",
+      "type": "image/jpeg",
+      "title": "3 band RGB",
+      "roles": [
+        "data"
+      ]
+    },
+    "label": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/labels/L428F04472C01S10324Rp16958.json",
+      "type": "application/json",
+      "title": "ML labels",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/thumbs/L428F04472C01S10324Rp16958.jpg",
+      "type": "image/jpeg",
+      "title": "thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "sentinel": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main//ancillary_data/sentinel/424480573_10324_S2_R.zip",
+      "type": "application/zip",
+      "title": "Sentinel remote sensing data",
+      "roles": [
+        "data"
+      ]
+    },
+    "ERA5": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/ancillary_data/era5/424480573_10324_ERA5.zip",
+      "type": "application/zip",
+      "title": "ERA5 climate data",
+      "roles": [
+        "data"
+      ]
+    },
+    "ARC": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main//ancillary_data/arc/424480573_10324_ARC.zip",
+      "type": "application/zip",
+      "title": "ARC precipitation estimates",
+      "roles": [
+        "data"
+      ]
+    },
+    "TAMSAT": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main//ancillary_data/tamsat/424480573_10324_TAMSAT.zip",
+      "type": "application/zip",
+      "title": "TAMSAT precipitation estimates",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "bbox": [
+    37.39209747,
+    -2.14457297,
+    37.96354675,
+    -1.7475759999999998
+  ],
+  "stac_extensions": [],
+  "collection": "Makueni"
+}

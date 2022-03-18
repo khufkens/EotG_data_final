@@ -1,0 +1,140 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "img_L435F02685C01S07895Rp17573",
+  "properties": {
+    "farmer_unique_id": "3953411",
+    "site_id": 7895,
+    "crop_name": "maize",
+    "sowing_date": "2021-04-06",
+    "expected_yield": 450,
+    "season": "LR2021",
+    "spatial_location": "Kibwezi West",
+    "spatial_unit": "gadm36",
+    "soil_type": "clay",
+    "cropping_system": "1",
+    "drainage_type": "moderate",
+    "sampled_area": "25",
+    "moisture_content": "0",
+    "lr2018_production": "2",
+    "lr2019_production": "5",
+    "lr2020_production": "6",
+    "lr2021_production": "0",
+    "datetime": "2021-05-07T08:51:30Z"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          37.44396591,
+          -2.54242539
+        ],
+        [
+          37.44396591,
+          -1.94799078
+        ],
+        [
+          38.13644409,
+          -1.94799078
+        ],
+        [
+          38.13644409,
+          -2.54242539
+        ],
+        [
+          37.44396591,
+          -2.54242539
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Kibwezi-West/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Kibwezi-West/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Kibwezi-West/img_L435F02685C01S07895Rp17573/img_L435F02685C01S07895Rp17573.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Kibwezi-West/collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "image": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/images/L435F02685C01S07895Rp17573.jpg",
+      "type": "image/jpeg",
+      "title": "3 band RGB",
+      "roles": [
+        "data"
+      ]
+    },
+    "label": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/labels/L435F02685C01S07895Rp17573.json",
+      "type": "application/json",
+      "title": "ML labels",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/thumbs/L435F02685C01S07895Rp17573.jpg",
+      "type": "image/jpeg",
+      "title": "thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "sentinel": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main//ancillary_data/sentinel/3953411_7895_S2_R.zip",
+      "type": "application/zip",
+      "title": "Sentinel remote sensing data",
+      "roles": [
+        "data"
+      ]
+    },
+    "ERA5": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/ancillary_data/era5/3953411_7895_ERA5.zip",
+      "type": "application/zip",
+      "title": "ERA5 climate data",
+      "roles": [
+        "data"
+      ]
+    },
+    "ARC": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main//ancillary_data/arc/3953411_7895_ARC.zip",
+      "type": "application/zip",
+      "title": "ARC precipitation estimates",
+      "roles": [
+        "data"
+      ]
+    },
+    "TAMSAT": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main//ancillary_data/tamsat/3953411_7895_TAMSAT.zip",
+      "type": "application/zip",
+      "title": "TAMSAT precipitation estimates",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "bbox": [
+    37.44396591,
+    -2.54242539,
+    38.13644409,
+    -1.94799078
+  ],
+  "stac_extensions": [],
+  "collection": "Kibwezi-West"
+}

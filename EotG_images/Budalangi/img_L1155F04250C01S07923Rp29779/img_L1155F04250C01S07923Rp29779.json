@@ -1,0 +1,141 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "img_L1155F04250C01S07923Rp29779",
+  "properties": {
+    "farmer_unique_id": "331746684",
+    "site_id": 7923,
+    "crop_name": "maize",
+    "sowing_date": "2021-04-09",
+    "expected_yield": 600,
+    "season": "LR2021",
+    "spatial_location": "Budalangi",
+    "spatial_unit": "gadm36",
+    "plot_size_acres": "0.5",
+    "soil_type": "clay",
+    "cropping_system": "1",
+    "drainage_type": "poor",
+    "sampled_area": "25",
+    "moisture_content": "29",
+    "lr2018_production": "7",
+    "lr2019_production": "5",
+    "lr2020_production": "0",
+    "lr2021_production": "2.8839691954023",
+    "datetime": "2021-07-07T08:31:01Z"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          33.90958786,
+          -0.023871200000000002
+        ],
+        [
+          33.90958786,
+          0.18444186
+        ],
+        [
+          34.09505081,
+          0.18444186
+        ],
+        [
+          34.09505081,
+          -0.023871200000000002
+        ],
+        [
+          33.90958786,
+          -0.023871200000000002
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Budalangi/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Budalangi/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Budalangi/img_L1155F04250C01S07923Rp29779/img_L1155F04250C01S07923Rp29779.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Budalangi/collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "image": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/images/L1155F04250C01S07923Rp29779.jpg",
+      "type": "image/jpeg",
+      "title": "3 band RGB",
+      "roles": [
+        "data"
+      ]
+    },
+    "label": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/labels/L1155F04250C01S07923Rp29779.json",
+      "type": "application/json",
+      "title": "ML labels",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/thumbs/L1155F04250C01S07923Rp29779.jpg",
+      "type": "image/jpeg",
+      "title": "thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "sentinel": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main//ancillary_data/sentinel/331746684_7923_S2_R.zip",
+      "type": "application/zip",
+      "title": "Sentinel remote sensing data",
+      "roles": [
+        "data"
+      ]
+    },
+    "ERA5": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/ancillary_data/era5/331746684_7923_ERA5.zip",
+      "type": "application/zip",
+      "title": "ERA5 climate data",
+      "roles": [
+        "data"
+      ]
+    },
+    "ARC": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main//ancillary_data/arc/331746684_7923_ARC.zip",
+      "type": "application/zip",
+      "title": "ARC precipitation estimates",
+      "roles": [
+        "data"
+      ]
+    },
+    "TAMSAT": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main//ancillary_data/tamsat/331746684_7923_TAMSAT.zip",
+      "type": "application/zip",
+      "title": "TAMSAT precipitation estimates",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "bbox": [
+    33.90958786,
+    -0.023871200000000002,
+    34.09505081,
+    0.18444186
+  ],
+  "stac_extensions": [],
+  "collection": "Budalangi"
+}

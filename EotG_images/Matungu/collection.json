@@ -1,0 +1,116 @@
+{
+  "type": "Collection",
+  "id": "Matungu",
+  "stac_version": "1.0.0",
+  "description": "image data",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Matungu/img_L1094F00036C01S00071Rp01962/img_L1094F00036C01S00071Rp01962.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Matungu/img_L1094F00036C01S00071Rp03717/img_L1094F00036C01S00071Rp03717.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Matungu/img_L1094F00036C01S00071Rp08123/img_L1094F00036C01S00071Rp08123.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Matungu/img_223_repeat_2_3284_4829_3201/img_223_repeat_2_3284_4829_3201.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Matungu/img_223_repeat_2_3284_5815_4196/img_223_repeat_2_3284_5815_4196.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Matungu/img_223_repeat_2_3284_6191_4555/img_223_repeat_2_3284_6191_4555.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Matungu/img_225_repeat_2_1334_472_335/img_225_repeat_2_1334_472_335.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Matungu/img_L1094F00036C01S00071Ip/img_L1094F00036C01S00071Ip.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Matungu/img_L1089F00469C01S00294Ip/img_L1089F00469C01S00294Ip.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Matungu/img_223_initial_1_3284_3284/img_223_initial_1_3284_3284.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Matungu/img_225_initial_1_1334_1334/img_225_initial_1_1334_1334.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Matungu/img_225_initial_1_1338_1338/img_225_initial_1_1338_1338.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Matungu/img_227_initial_1_1790_1790/img_227_initial_1_1790_1790.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Matungu/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "stac_extensions": [],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          34.34313965,
+          0.28609473,
+          34.58956528,
+          0.48927671
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-04-27T00:00:00Z",
+          "2021-01-01T14:35:30Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-SA-4.0",
+  "keywords": [
+    "machine learning",
+    "crop monitoring",
+    "validation",
+    "remote sensing"
+  ]
+}

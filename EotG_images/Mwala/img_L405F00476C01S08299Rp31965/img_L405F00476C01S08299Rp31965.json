@@ -1,0 +1,141 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "img_L405F00476C01S08299Rp31965",
+  "properties": {
+    "farmer_unique_id": "1046452",
+    "site_id": 8299,
+    "crop_name": "maize",
+    "sowing_date": "2021-04-07",
+    "expected_yield": 1800,
+    "season": "LR2021",
+    "spatial_location": "Mwala",
+    "spatial_unit": "gadm36",
+    "plot_size_acres": "0.8",
+    "soil_type": "loam",
+    "cropping_system": "3",
+    "drainage_type": "well drained",
+    "sampled_area": "25",
+    "moisture_content": "18",
+    "lr2018_production": "10",
+    "lr2019_production": "8",
+    "lr2020_production": "12",
+    "lr2021_production": "0.130099054814815",
+    "datetime": "2021-08-01T07:19:08Z"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          37.34260941,
+          -1.64493549
+        ],
+        [
+          37.34260941,
+          -1.1581105
+        ],
+        [
+          37.75380325,
+          -1.1581105
+        ],
+        [
+          37.75380325,
+          -1.64493549
+        ],
+        [
+          37.34260941,
+          -1.64493549
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Mwala/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Mwala/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Mwala/img_L405F00476C01S08299Rp31965/img_L405F00476C01S08299Rp31965.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Mwala/collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "image": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/images/L405F00476C01S08299Rp31965.jpg",
+      "type": "image/jpeg",
+      "title": "3 band RGB",
+      "roles": [
+        "data"
+      ]
+    },
+    "label": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/labels/L405F00476C01S08299Rp31965.json",
+      "type": "application/json",
+      "title": "ML labels",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/thumbs/L405F00476C01S08299Rp31965.jpg",
+      "type": "image/jpeg",
+      "title": "thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "sentinel": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main//ancillary_data/sentinel/1046452_8299_S2_R.zip",
+      "type": "application/zip",
+      "title": "Sentinel remote sensing data",
+      "roles": [
+        "data"
+      ]
+    },
+    "ERA5": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/ancillary_data/era5/1046452_8299_ERA5.zip",
+      "type": "application/zip",
+      "title": "ERA5 climate data",
+      "roles": [
+        "data"
+      ]
+    },
+    "ARC": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main//ancillary_data/arc/1046452_8299_ARC.zip",
+      "type": "application/zip",
+      "title": "ARC precipitation estimates",
+      "roles": [
+        "data"
+      ]
+    },
+    "TAMSAT": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main//ancillary_data/tamsat/1046452_8299_TAMSAT.zip",
+      "type": "application/zip",
+      "title": "TAMSAT precipitation estimates",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "bbox": [
+    37.34260941,
+    -1.64493549,
+    37.75380325,
+    -1.1581105
+  ],
+  "stac_extensions": [],
+  "collection": "Mwala"
+}

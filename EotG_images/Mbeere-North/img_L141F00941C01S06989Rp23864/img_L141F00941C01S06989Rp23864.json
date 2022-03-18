@@ -1,0 +1,141 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "img_L141F00941C01S06989Rp23864",
+  "properties": {
+    "farmer_unique_id": "1451225",
+    "site_id": 6989,
+    "crop_name": "maize",
+    "sowing_date": "2021-03-20",
+    "expected_yield": 18,
+    "season": "LR2021",
+    "spatial_location": "Mbeere North",
+    "spatial_unit": "gadm36",
+    "plot_size_acres": "1",
+    "soil_type": "loam",
+    "cropping_system": "1",
+    "drainage_type": "moderate",
+    "sampled_area": "25",
+    "moisture_content": "2.17",
+    "lr2018_production": "20",
+    "lr2019_production": "10",
+    "lr2020_production": "10",
+    "lr2021_production": "13.0758543111111",
+    "datetime": "2021-06-08T18:23:55Z"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          37.54750443,
+          -0.66474175
+        ],
+        [
+          37.54750443,
+          -0.34301758
+        ],
+        [
+          37.93591309,
+          -0.34301758
+        ],
+        [
+          37.93591309,
+          -0.66474175
+        ],
+        [
+          37.54750443,
+          -0.66474175
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Mbeere-North/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Mbeere-North/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Mbeere-North/img_L141F00941C01S06989Rp23864/img_L141F00941C01S06989Rp23864.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Mbeere-North/collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "image": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/images/L141F00941C01S06989Rp23864.jpg",
+      "type": "image/jpeg",
+      "title": "3 band RGB",
+      "roles": [
+        "data"
+      ]
+    },
+    "label": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/labels/L141F00941C01S06989Rp23864.json",
+      "type": "application/json",
+      "title": "ML labels",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/thumbs/L141F00941C01S06989Rp23864.jpg",
+      "type": "image/jpeg",
+      "title": "thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "sentinel": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main//ancillary_data/sentinel/1451225_6989_S2_R.zip",
+      "type": "application/zip",
+      "title": "Sentinel remote sensing data",
+      "roles": [
+        "data"
+      ]
+    },
+    "ERA5": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/ancillary_data/era5/1451225_6989_ERA5.zip",
+      "type": "application/zip",
+      "title": "ERA5 climate data",
+      "roles": [
+        "data"
+      ]
+    },
+    "ARC": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main//ancillary_data/arc/1451225_6989_ARC.zip",
+      "type": "application/zip",
+      "title": "ARC precipitation estimates",
+      "roles": [
+        "data"
+      ]
+    },
+    "TAMSAT": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main//ancillary_data/tamsat/1451225_6989_TAMSAT.zip",
+      "type": "application/zip",
+      "title": "TAMSAT precipitation estimates",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "bbox": [
+    37.54750443,
+    -0.66474175,
+    37.93591309,
+    -0.34301758
+  ],
+  "stac_extensions": [],
+  "collection": "Mbeere-North"
+}

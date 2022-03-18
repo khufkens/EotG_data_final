@@ -1,0 +1,141 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "img_L1133F00552C01S07748Rp20722",
+  "properties": {
+    "farmer_unique_id": "1160743",
+    "site_id": 7748,
+    "crop_name": "maize",
+    "sowing_date": "2021-03-18",
+    "expected_yield": 800,
+    "season": "LR2021",
+    "spatial_location": "Nambale",
+    "spatial_unit": "gadm36",
+    "plot_size_acres": "1",
+    "soil_type": "sandy loam",
+    "cropping_system": "1",
+    "drainage_type": "poor",
+    "sampled_area": "25",
+    "moisture_content": "18.1",
+    "lr2018_production": "1",
+    "lr2019_production": "2",
+    "lr2020_production": "1",
+    "lr2021_production": "4.32807826396562",
+    "datetime": "2021-05-22T14:30:57Z"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          34.21038055,
+          0.3983236
+        ],
+        [
+          34.21038055,
+          0.61898065
+        ],
+        [
+          34.40854645,
+          0.61898065
+        ],
+        [
+          34.40854645,
+          0.3983236
+        ],
+        [
+          34.21038055,
+          0.3983236
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Nambale/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Nambale/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Nambale/img_L1133F00552C01S07748Rp20722/img_L1133F00552C01S07748Rp20722.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Nambale/collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "image": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/images/L1133F00552C01S07748Rp20722.jpg",
+      "type": "image/jpeg",
+      "title": "3 band RGB",
+      "roles": [
+        "data"
+      ]
+    },
+    "label": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/labels/L1133F00552C01S07748Rp20722.json",
+      "type": "application/json",
+      "title": "ML labels",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/thumbs/L1133F00552C01S07748Rp20722.jpg",
+      "type": "image/jpeg",
+      "title": "thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "sentinel": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main//ancillary_data/sentinel/1160743_7748_S2_R.zip",
+      "type": "application/zip",
+      "title": "Sentinel remote sensing data",
+      "roles": [
+        "data"
+      ]
+    },
+    "ERA5": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/ancillary_data/era5/1160743_7748_ERA5.zip",
+      "type": "application/zip",
+      "title": "ERA5 climate data",
+      "roles": [
+        "data"
+      ]
+    },
+    "ARC": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main//ancillary_data/arc/1160743_7748_ARC.zip",
+      "type": "application/zip",
+      "title": "ARC precipitation estimates",
+      "roles": [
+        "data"
+      ]
+    },
+    "TAMSAT": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main//ancillary_data/tamsat/1160743_7748_TAMSAT.zip",
+      "type": "application/zip",
+      "title": "TAMSAT precipitation estimates",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "bbox": [
+    34.21038055,
+    0.3983236,
+    34.40854645,
+    0.61898065
+  ],
+  "stac_extensions": [],
+  "collection": "Nambale"
+}

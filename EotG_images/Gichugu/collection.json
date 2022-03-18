@@ -1,0 +1,126 @@
+{
+  "type": "Collection",
+  "id": "Gichugu",
+  "stac_version": "1.0.0",
+  "description": "image data",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Gichugu/img_L113F00071C01S07192Rp17289/img_L113F00071C01S07192Rp17289.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Gichugu/img_L113F00071C01S07192Rp21490/img_L113F00071C01S07192Rp21490.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Gichugu/img_L113F00071C01S07192Rp25327/img_L113F00071C01S07192Rp25327.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Gichugu/img_L113F00071C01S07192Rp26977/img_L113F00071C01S07192Rp26977.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Gichugu/img_L113F00071C01S07192Rp28742/img_L113F00071C01S07192Rp28742.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Gichugu/img_L113F00071C01S07192Rp30057/img_L113F00071C01S07192Rp30057.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Gichugu/img_L113F00071C01S07192Rp30616/img_L113F00071C01S07192Rp30616.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Gichugu/img_L113F00071C01S07192Rp30609/img_L113F00071C01S07192Rp30609.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Gichugu/img_L113F00071C01S07192Rp31385/img_L113F00071C01S07192Rp31385.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Gichugu/img_L113F00071C01S07204Rp18722/img_L113F00071C01S07204Rp18722.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Gichugu/img_L113F00071C01S07204Rp20077/img_L113F00071C01S07204Rp20077.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Gichugu/img_L113F00071C01S07204Rp22955/img_L113F00071C01S07204Rp22955.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Gichugu/img_L113F01018C01S07213Rp20124/img_L113F01018C01S07213Rp20124.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Gichugu/img_L113F01018C01S07213Rp25349/img_L113F01018C01S07213Rp25349.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Gichugu/img_L113F01018C01S07213Rp30633/img_L113F01018C01S07213Rp30633.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Gichugu/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "stac_extensions": [],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          37.27402496,
+          -0.5593673000000001,
+          37.44781113,
+          -0.14629371
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2021-05-05T14:41:17Z",
+          "2021-07-21T14:12:05Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-SA-4.0",
+  "keywords": [
+    "machine learning",
+    "crop monitoring",
+    "validation",
+    "remote sensing"
+  ]
+}

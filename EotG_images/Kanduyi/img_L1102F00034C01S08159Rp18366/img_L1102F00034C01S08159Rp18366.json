@@ -1,0 +1,141 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "img_L1102F00034C01S08159Rp18366",
+  "properties": {
+    "farmer_unique_id": "BN032",
+    "site_id": 8159,
+    "crop_name": "maize",
+    "sowing_date": "2021-03-18",
+    "expected_yield": 720,
+    "season": "LR2021",
+    "spatial_location": "Kanduyi",
+    "spatial_unit": "gadm36",
+    "plot_size_acres": "1",
+    "soil_type": "sandy loam",
+    "cropping_system": "3",
+    "drainage_type": "moderate",
+    "sampled_area": "25",
+    "moisture_content": "34.2",
+    "lr2018_production": "5",
+    "lr2019_production": "3.7",
+    "lr2020_production": "6",
+    "lr2021_production": "11.8197762833008",
+    "datetime": "2021-05-10T09:52:55Z"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          34.49693298,
+          0.42518803
+        ],
+        [
+          34.49693298,
+          0.70781493
+        ],
+        [
+          34.68441391,
+          0.70781493
+        ],
+        [
+          34.68441391,
+          0.42518803
+        ],
+        [
+          34.49693298,
+          0.42518803
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Kanduyi/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Kanduyi/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Kanduyi/img_L1102F00034C01S08159Rp18366/img_L1102F00034C01S08159Rp18366.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Kanduyi/collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "image": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/images/L1102F00034C01S08159Rp18366.jpg",
+      "type": "image/jpeg",
+      "title": "3 band RGB",
+      "roles": [
+        "data"
+      ]
+    },
+    "label": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/labels/L1102F00034C01S08159Rp18366.json",
+      "type": "application/json",
+      "title": "ML labels",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/thumbs/L1102F00034C01S08159Rp18366.jpg",
+      "type": "image/jpeg",
+      "title": "thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "sentinel": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main//ancillary_data/sentinel/BN032_8159_S2_R.zip",
+      "type": "application/zip",
+      "title": "Sentinel remote sensing data",
+      "roles": [
+        "data"
+      ]
+    },
+    "ERA5": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/ancillary_data/era5/BN032_8159_ERA5.zip",
+      "type": "application/zip",
+      "title": "ERA5 climate data",
+      "roles": [
+        "data"
+      ]
+    },
+    "ARC": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main//ancillary_data/arc/BN032_8159_ARC.zip",
+      "type": "application/zip",
+      "title": "ARC precipitation estimates",
+      "roles": [
+        "data"
+      ]
+    },
+    "TAMSAT": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main//ancillary_data/tamsat/BN032_8159_TAMSAT.zip",
+      "type": "application/zip",
+      "title": "TAMSAT precipitation estimates",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "bbox": [
+    34.49693298,
+    0.42518803,
+    34.68441391,
+    0.70781493
+  ],
+  "stac_extensions": [],
+  "collection": "Kanduyi"
+}

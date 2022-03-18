@@ -1,0 +1,141 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "img_L398F03135C01S08651Rp30087",
+  "properties": {
+    "farmer_unique_id": "4483000",
+    "site_id": 8651,
+    "crop_name": "maize",
+    "sowing_date": "2021-04-29",
+    "expected_yield": 290,
+    "season": "LR2021",
+    "spatial_location": "Machakos Town",
+    "spatial_unit": "gadm36",
+    "plot_size_acres": "1",
+    "soil_type": "sandyloam",
+    "cropping_system": "1",
+    "drainage_type": "poor",
+    "sampled_area": "25",
+    "moisture_content": "15.2",
+    "lr2018_production": "1",
+    "lr2019_production": "1",
+    "lr2020_production": "1",
+    "lr2021_production": "2.33818577777778",
+    "datetime": "2021-07-09T09:43:37Z"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          37.1414032,
+          -1.71150804
+        ],
+        [
+          37.1414032,
+          -1.35909915
+        ],
+        [
+          37.41309738,
+          -1.35909915
+        ],
+        [
+          37.41309738,
+          -1.71150804
+        ],
+        [
+          37.1414032,
+          -1.71150804
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Machakos-Town/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Machakos-Town/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Machakos-Town/img_L398F03135C01S08651Rp30087/img_L398F03135C01S08651Rp30087.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Machakos-Town/collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "image": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/images/L398F03135C01S08651Rp30087.jpg",
+      "type": "image/jpeg",
+      "title": "3 band RGB",
+      "roles": [
+        "data"
+      ]
+    },
+    "label": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/labels/L398F03135C01S08651Rp30087.json",
+      "type": "application/json",
+      "title": "ML labels",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/thumbs/L398F03135C01S08651Rp30087.jpg",
+      "type": "image/jpeg",
+      "title": "thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "sentinel": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main//ancillary_data/sentinel/4483000_8651_S2_R.zip",
+      "type": "application/zip",
+      "title": "Sentinel remote sensing data",
+      "roles": [
+        "data"
+      ]
+    },
+    "ERA5": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/ancillary_data/era5/4483000_8651_ERA5.zip",
+      "type": "application/zip",
+      "title": "ERA5 climate data",
+      "roles": [
+        "data"
+      ]
+    },
+    "ARC": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main//ancillary_data/arc/4483000_8651_ARC.zip",
+      "type": "application/zip",
+      "title": "ARC precipitation estimates",
+      "roles": [
+        "data"
+      ]
+    },
+    "TAMSAT": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main//ancillary_data/tamsat/4483000_8651_TAMSAT.zip",
+      "type": "application/zip",
+      "title": "TAMSAT precipitation estimates",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "bbox": [
+    37.1414032,
+    -1.71150804,
+    37.41309738,
+    -1.35909915
+  ],
+  "stac_extensions": [],
+  "collection": "Machakos-Town"
+}

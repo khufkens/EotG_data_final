@@ -1,0 +1,78 @@
+{
+  "type": "Catalog",
+  "id": "EotG_release_v1",
+  "stac_version": "1.0.0",
+  "description": "\nThe \"Eyes on the Ground\" project ([lacunafund.org](https://lacunafund.org/ag2020awards/))\nis a collaboration between ACRE Africa, the International Food Policy Research Institute (IFPRI),\nand the Lacuna Fund, to create a large machine learning (ML) dataset of smallholder farmer's\nfields based upon previous work within the Picture Based Insurance framework\n(Ceballos, Kramer and Robles, 2019, [https://doi.org/10.1016/j.deveng.2019.100042](https://doi.org/10.1016/j.deveng.2019.100042)).\nThis is a unique dataset of georeferenced crop images along with labels on input use,\ncrop management, phenology, crop damage, and yields, collected across 8 counties in Kenya.\nThe research leading to this dataset was undertaken as part of the CGIAR research program on Policies,\nInstitutions and Markets (PIM).\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./EotG_images/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "stac_extensions": [],
+  "license": "CC-BY-SA-4.0",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          33.90958786,
+          -2.99221325,
+          38.7868576,
+          1.15123999
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-04-17T00:00:00Z",
+          "2021-09-01T12:35:05Z"
+        ]
+      ]
+    }
+  },
+  "providers": [
+    {
+      "name": "LACUNA fund",
+      "roles": [
+        "producer",
+        "processor"
+      ],
+      "url": "https://lacunafund.org/"
+    },
+    {
+      "name": "International Food Policy Research Institute",
+      "roles": [
+        "producer",
+        "processor"
+      ],
+      "url": "http://ifpri.org"
+    },
+    {
+      "name": "CGIAR research program on Policies, Institutions and Markets (PIM)",
+      "roles": [
+        "producer"
+      ],
+      "url": "https://pim.cgiar.org/"
+    },
+    {
+      "name": "BlueGreen Labs (bv)",
+      "roles": [
+        "processor"
+      ],
+      "url": "http://bluegreenlabs.org"
+    }
+  ],
+  "title": "Eyes on the Ground"
+}

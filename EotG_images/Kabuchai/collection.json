@@ -1,0 +1,111 @@
+{
+  "type": "Collection",
+  "id": "Kabuchai",
+  "stac_version": "1.0.0",
+  "description": "image data",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Kabuchai/img_L1093F01119C01S08071Rp27182/img_L1093F01119C01S08071Rp27182.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Kabuchai/img_L1093F01192C01S08072Rp30923/img_L1093F01192C01S08072Rp30923.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Kabuchai/img_L1093F01223C01S08073Rp30924/img_L1093F01223C01S08073Rp30924.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Kabuchai/img_L1093F01457C01S08074Rp20668/img_L1093F01457C01S08074Rp20668.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Kabuchai/img_L1093F01730C01S08075Rp20670/img_L1093F01730C01S08075Rp20670.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Kabuchai/img_L1093F01730C01S08075Rp30926/img_L1093F01730C01S08075Rp30926.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Kabuchai/img_L1093F02016C01S08491Rp20673/img_L1093F02016C01S08491Rp20673.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Kabuchai/img_L1093F02016C01S08491Rp30928/img_L1093F02016C01S08491Rp30928.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Kabuchai/img_L1093F02099C01S08496Rp20676/img_L1093F02099C01S08496Rp20676.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Kabuchai/img_L1093F02099C01S08496Rp30930/img_L1093F02099C01S08496Rp30930.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Kabuchai/img_L1093F02146C01S08512Rp21996/img_L1093F02146C01S08512Rp21996.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Kabuchai/img_L1093F02146C01S08512Rp30931/img_L1093F02146C01S08512Rp30931.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Kabuchai/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "stac_extensions": [],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          34.52971268,
+          0.59331423,
+          34.67449951,
+          0.80735874
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2021-05-22T11:08:43Z",
+          "2021-07-17T11:58:44Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-SA-4.0",
+  "keywords": [
+    "machine learning",
+    "crop monitoring",
+    "validation",
+    "remote sensing"
+  ]
+}

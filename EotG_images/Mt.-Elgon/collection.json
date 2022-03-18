@@ -1,0 +1,231 @@
+{
+  "type": "Collection",
+  "id": "Mt.-Elgon",
+  "stac_version": "1.0.0",
+  "description": "image data",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Mt.-Elgon/img_L1083F01448C01S00153Rp07445/img_L1083F01448C01S00153Rp07445.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Mt.-Elgon/img_L1083F01448C01S00153Rp10348/img_L1083F01448C01S00153Rp10348.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Mt.-Elgon/img_L1083F01448C01S00153Rp01684/img_L1083F01448C01S00153Rp01684.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Mt.-Elgon/img_L1084F00364C01S07510Rp19773/img_L1084F00364C01S07510Rp19773.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Mt.-Elgon/img_L1084F00364C01S07510Rp22220/img_L1084F00364C01S07510Rp22220.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Mt.-Elgon/img_L1084F00364C01S07510Rp20997/img_L1084F00364C01S07510Rp20997.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Mt.-Elgon/img_L1084F00364C01S07510Rp20999/img_L1084F00364C01S07510Rp20999.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Mt.-Elgon/img_L1084F00364C01S07510Rp24517/img_L1084F00364C01S07510Rp24517.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Mt.-Elgon/img_L1084F00364C01S07510Rp29706/img_L1084F00364C01S07510Rp29706.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Mt.-Elgon/img_L1084F00364C01S07510Rp15257/img_L1084F00364C01S07510Rp15257.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Mt.-Elgon/img_L1084F00364C01S07510Rp15791/img_L1084F00364C01S07510Rp15791.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Mt.-Elgon/img_L1084F00364C01S07510Rp16608/img_L1084F00364C01S07510Rp16608.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Mt.-Elgon/img_L1084F00364C01S07510Rp18431/img_L1084F00364C01S07510Rp18431.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Mt.-Elgon/img_L1084F00364C01S07510Rp23480/img_L1084F00364C01S07510Rp23480.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Mt.-Elgon/img_L1084F00364C01S07510Rp26313/img_L1084F00364C01S07510Rp26313.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Mt.-Elgon/img_L1084F00364C01S07510Rp27889/img_L1084F00364C01S07510Rp27889.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Mt.-Elgon/img_L1084F00364C01S07510Rp30337/img_L1084F00364C01S07510Rp30337.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Mt.-Elgon/img_L1084F00364C01S07510Rp31201/img_L1084F00364C01S07510Rp31201.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Mt.-Elgon/img_L1095F00367C01S08158Rp18045/img_L1095F00367C01S08158Rp18045.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Mt.-Elgon/img_L1095F00367C01S08158Rp24902/img_L1095F00367C01S08158Rp24902.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Mt.-Elgon/img_L1095F00367C01S08158Rp30893/img_L1095F00367C01S08158Rp30893.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Mt.-Elgon/img_L1084F01037C01S07373Rp19510/img_L1084F01037C01S07373Rp19510.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Mt.-Elgon/img_L1084F01037C01S07373Rp22217/img_L1084F01037C01S07373Rp22217.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Mt.-Elgon/img_L1084F01037C01S07373Rp20988/img_L1084F01037C01S07373Rp20988.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Mt.-Elgon/img_L1084F01037C01S07373Rp23645/img_L1084F01037C01S07373Rp23645.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Mt.-Elgon/img_L1084F01037C01S07373Rp24495/img_L1084F01037C01S07373Rp24495.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Mt.-Elgon/img_L1084F01037C01S07373Rp23669/img_L1084F01037C01S07373Rp23669.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Mt.-Elgon/img_L1084F01037C01S07373Rp15344/img_L1084F01037C01S07373Rp15344.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Mt.-Elgon/img_L1084F01037C01S07373Rp16015/img_L1084F01037C01S07373Rp16015.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Mt.-Elgon/img_L1084F01037C01S07373Rp16609/img_L1084F01037C01S07373Rp16609.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Mt.-Elgon/img_L1084F01037C01S07373Rp18402/img_L1084F01037C01S07373Rp18402.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Mt.-Elgon/img_L1084F01037C01S07373Rp26407/img_L1084F01037C01S07373Rp26407.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Mt.-Elgon/img_L1084F01037C01S07373Rp27861/img_L1084F01037C01S07373Rp27861.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Mt.-Elgon/img_L1084F01037C01S07373Rp29720/img_L1084F01037C01S07373Rp29720.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Mt.-Elgon/img_L992F04360C01S07257Rp17128/img_L992F04360C01S07257Rp17128.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Mt.-Elgon/img_L1083F01448C01S00153Ip/img_L1083F01448C01S00153Ip.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Mt.-Elgon/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "stac_extensions": [],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          34.40545273,
+          0.77179217,
+          34.80092621,
+          1.15123999
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-11-03T00:00:00Z",
+          "2021-07-19T14:26:54Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-SA-4.0",
+  "keywords": [
+    "machine learning",
+    "crop monitoring",
+    "validation",
+    "remote sensing"
+  ]
+}

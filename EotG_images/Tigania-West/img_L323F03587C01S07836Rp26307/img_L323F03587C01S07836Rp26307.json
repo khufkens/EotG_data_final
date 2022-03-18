@@ -1,0 +1,141 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "img_L323F03587C01S07836Rp26307",
+  "properties": {
+    "farmer_unique_id": "890029",
+    "site_id": 7836,
+    "crop_name": "maize",
+    "sowing_date": "2021-03-31",
+    "expected_yield": 1080,
+    "season": "LR2021",
+    "spatial_location": "Tigania West",
+    "spatial_unit": "gadm36",
+    "plot_size_acres": "1",
+    "soil_type": "loam",
+    "cropping_system": "1",
+    "drainage_type": "well drained",
+    "sampled_area": "25",
+    "moisture_content": "14",
+    "lr2018_production": "6",
+    "lr2019_production": "4",
+    "lr2020_production": "5",
+    "lr2021_production": "5.39581333333333",
+    "datetime": "2021-06-20T14:23:57Z"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          37.57295227,
+          0.03091823
+        ],
+        [
+          37.57295227,
+          0.340271
+        ],
+        [
+          37.84387207,
+          0.340271
+        ],
+        [
+          37.84387207,
+          0.03091823
+        ],
+        [
+          37.57295227,
+          0.03091823
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Tigania-West/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Tigania-West/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Tigania-West/img_L323F03587C01S07836Rp26307/img_L323F03587C01S07836Rp26307.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/EotG_images/Tigania-West/collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "image": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/images/L323F03587C01S07836Rp26307.jpg",
+      "type": "image/jpeg",
+      "title": "3 band RGB",
+      "roles": [
+        "data"
+      ]
+    },
+    "label": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/labels/L323F03587C01S07836Rp26307.json",
+      "type": "application/json",
+      "title": "ML labels",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/thumbs/L323F03587C01S07836Rp26307.jpg",
+      "type": "image/jpeg",
+      "title": "thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "sentinel": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main//ancillary_data/sentinel/890029_7836_S2_R.zip",
+      "type": "application/zip",
+      "title": "Sentinel remote sensing data",
+      "roles": [
+        "data"
+      ]
+    },
+    "ERA5": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main/ancillary_data/era5/890029_7836_ERA5.zip",
+      "type": "application/zip",
+      "title": "ERA5 climate data",
+      "roles": [
+        "data"
+      ]
+    },
+    "ARC": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main//ancillary_data/arc/890029_7836_ARC.zip",
+      "type": "application/zip",
+      "title": "ARC precipitation estimates",
+      "roles": [
+        "data"
+      ]
+    },
+    "TAMSAT": {
+      "href": "https://raw.githubusercontent.com/khufkens/EotG_data_final/main//ancillary_data/tamsat/890029_7836_TAMSAT.zip",
+      "type": "application/zip",
+      "title": "TAMSAT precipitation estimates",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "bbox": [
+    37.57295227,
+    0.03091823,
+    37.84387207,
+    0.340271
+  ],
+  "stac_extensions": [],
+  "collection": "Tigania-West"
+}
