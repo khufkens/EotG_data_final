@@ -28,6 +28,8 @@ Machine Learning labels provided consist of:
 
 ## ML labels (json label)
 
+ML labels are all probabilities of the below properties.
+
 - drought probability (drought_probability)
 - drought extent (drought_extent)
 - sowing phase (growth_sowing)
@@ -47,7 +49,7 @@ Sentinel 2 data is provided as raw band values an quality control labels, in par
 
 ## ERA 5 data
 
-Similar to Sentinel 2 data daily aggregates of climate variables were extracted from Google Earth Engine spanning the 2020 - 2021 time frame. However, the data is currently truncated at 09/07/2021 due to a slow release cycle of the daily values. In the dataset the following variables are included:
+Similar to Sentinel 2 data daily aggregates of climate variables were extracted from Google Earth Engine spanning the 2020 - 2021 time frame. However, the data is currently truncated at 09/07/2021 due to a slow release cycle of the daily values. Remaining data is complemented using the Copernicus Climate Data Store API and repository aggergating data to the same units. In the dataset the following variables are included:
 
 - Surface pressure
 - 2m mean air temperature
